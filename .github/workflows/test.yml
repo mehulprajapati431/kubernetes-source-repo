@@ -19,3 +19,4 @@ jobs:
                     echo "${{ github.repository }}"
                     echo "${{ github.sha }}"
                     echo "${{ github.repository_owner }}"
+                    echo "${{ github.run_id }}"
